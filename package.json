@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && node script/after-build.js",
+    "build": "vite build --base /assets/ && node script/after-build.js",
     "preview": "vite preview"
   },
   "dependencies": {
