@@ -1,12 +1,7 @@
-import { createApp } from "vue";
-import App from "./App.vue";
-import { createRouter, createWebHashHistory } from "vue-router";
-import routes from "~pages";
+import App from "./App.svelte";
 
-const router = createRouter({
-  // ...
-  routes,
-  history: createWebHashHistory(),
+const app = new App({
+  target: document.getElementById("app"),
 });
 
-createApp(App).use(router).mount("#app");
+export default app;
