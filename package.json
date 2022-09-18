@@ -15,8 +15,8 @@
   },
   "dependencies": {
     "@vitejs/plugin-legacy": "^2.1.0",
-    "svelte-router-spa": "^6.0.3",
+    "svelte-spa-router": "^3.3.0",
     "terser": "^5.15.0",
-    "vite-plugin-pages-svelte": "^0.0.2"
+    "vite-plugin-pages-svelte": "0.0.1"
   }
 }
