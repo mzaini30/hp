@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite --open",
-    "build": "vite build --base /assets/ && node script/after-build.js",
+    "build": "vite build",
+    "build:android": "vite build --mode android --base /assets/ && node script/after-build.js",
     "preview": "vite preview --open"
   },
   "devDependencies": {
